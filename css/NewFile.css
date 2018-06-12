@@ -1,0 +1,142 @@
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+	margin-bottom: 12px
+}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+	width: 120px;
+	background: #222;
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+	margin-left: 120px;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+	background-image: url(../images/my-image.jpg);
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+	background-image: url("../images/background-image.jpeg");
+	min-height: 100px;
+	background-size: cover;
+}
+
+.parallax2 {
+	margin-top: 450px;
+	/* background: url("background-image.jpeg"); */
+	/* 	opacity: 0.65; */
+	min-height: 500px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 900px;
+}
+
+.parallax1 {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	/* 	background: url("../assets/my_image.jpg"); */
+	opacity: 0.65;
+	min-height: 500px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 500px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 85%;
+	opacity: 0.65
+}
+
+#hobby-image {
+	cursor: pointer;
+	border-radius: 50%;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.header-padding {
+	padding-bottom: 32px !important;
+}
+
+.hobby-modal {
+	padding: 5%;
+	margin: 13%;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50% !important;
+	margin-bottom: 2%;
+}
+
+.year-information {
+	margin-bottom: 33.33% !important;
+}
+
+@media only screen and (max-width: 600px) {
+	.my-skills-background {
+		height: fit-content !important;
+	}
+	.w3-jumbo {
+		margin-top: 5px;
+		font-size: 30px !important;
+	}
+	#main {
+		margin-left: 0;
+	}
+	.project-details {
+		font-family: "Montserrat", sans-serif;
+		text-align: justify !important;
+		font-size: 13px !important;
+		color: white !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+}
+
+@media only screen and ( min-width : 600px) {
+	.education-container {
+		margin-right: 20% !important;
+	}
+	.education-image {
+		height: 100% !important;
+	}
+}
+
+.w3-text-teal, .w3-hover-text-teal:hover {
+	color: #383838 !important;
+}
+
+.project-name {
+	font-family: "Montserrat", sans-serif;
+	text-align: center !important;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.project-details {
+	font-family: "Montserrat", sans-serif;
+	text-align: justify !important;
+	font-size: 16px;
+	color: white !important;
+	padding-left: 150px;
+	padding-right: 300px;
+}
+
+.carousel-inner>.item.active, .carousel-inner>.item.next.left,
+	.carousel-inner>.item.prev.right {
+	text-align: center;
+}
+}
