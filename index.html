@@ -39,7 +39,8 @@
 	<!-- Icon Bar (Sidebar - hidden on small screens) -->
 	<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
 		<!-- Avatar image in top left corner -->
-		<img src="/w3images/avatar_smoke.jpg" style="width: 100%"> <a
+<!-- 		<img src="/w3images/avatar_smoke.jpg" style="width: 100%"> -->
+		<a
 			href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
 			<i class="fa fa-home w3-xxlarge"></i>
 			<p>HOME</p>
@@ -86,7 +87,7 @@
 
 		<!-- About Section -->
 		<div class="w3-content w3-justify w3-text-grey w3-padding-64"
-			id="about">
+			id="about" style="margin-left: 33px;">
 			<h2 class="w3-text-light-grey" style="margin-bottom: 5%;">About
 				Me</h2>
 			<!-- 			<hr style="width: 200px" class="w3-opacity"> -->
@@ -97,21 +98,21 @@
 			<div class="w3-row-padding">
 				<div class="w3-container w3-third " id="hobby-image">
 					<img src="./images/hobby-background.jpg" alt="hobby"
-						style="width: 50%;"
+						style="width: 50%;border-radius: 50%;"
 						onclick="document.getElementById('modal-hobby').style.display='block'"
 						class="w3-hover-opacity">
 					<p class="w3-wide" style="text-align: center;">Hobby</p>
 				</div>
 				<div class="w3-container w3-third " id="hobby-image">
 					<img src="./images/skills-background.jpg" alt="skills"
-						style="width: 50%; height: 150%;"
+						style="width: 50%; height: 150%;border-radius: 50%; "
 						onclick="document.getElementById('modal-skills').style.display='block'"
 						class="w3-hover-opacity">
 					<p class="w3-wide" style="text-align: center;">Skills</p>
 				</div>
 				<div class="w3-container w3-third education-image" id="hobby-image">
 					<img src="./images/education-background.png" alt="Education"
-						style="width: 55%; height: 135px;"
+						style="width: 55%; height: 135px;border-radius: 50%;"
 						onclick="document.getElementById('modal-education').style.display='block'"
 						class="w3-hover-opacity">
 					<p class="w3-wide" style="text-align: center;">Education</p>
@@ -119,7 +120,7 @@
 			</div>
 
 			<div id="modal-hobby" class="w3-modal"
-				onclick="this.style.display='none'" >
+				onclick="this.style.display='none'">
 				<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
 				<div class="w3-modal-content w3-animate-zoom hobby-modal">
 					<h4>Dancing is my passion. I'm dancing ever since I was 14. It
@@ -129,9 +130,9 @@
 			</div>
 
 			<div id="modal-skills" class="w3-modal"
-				onclick="this.style.display='none'">
+				onclick="this.style.display='none'" style="margin-left: 14%;display: block;">
 				<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-				<div class=" w3-modal-content w3-animate-zoom hobby-modal" style="margin:0px;margin-left: 16%;">
+				<div class=" w3-modal-content w3-animate-zoom hobby-modal" style="margin:2%;">
 
 					<!-- About Section -->
 					<div
@@ -206,7 +207,7 @@
 			onclick="this.style.display='none'">
 			<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
 			<div class="w3-modal-content w3-animate-zoom hobby-modal"
-				style="background-color: transparent;margin-top:-6%;">
+				style="background-color: transparent;margin-top: -5%;">
 				<div class="container " style="color: black; text-align: center;">
 					<div class="w3-container w3-card w3-white education-container">
 						<h2 class="w3-text-grey w3-padding-16">
