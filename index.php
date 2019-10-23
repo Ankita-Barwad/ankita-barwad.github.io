@@ -402,7 +402,7 @@
 					<p>
 						<button class="w3-button w3-light-grey w3-padding-large" type="submit" value="Send"
 							style="border-radius:4px;">
-							<i class="fa fa-paper-plane"></i> SEND MESSAGE
+							<i class="fa fa-paper-plane"></i> Send MESSAGE
 						</button>
 					</p>
 				</form>
