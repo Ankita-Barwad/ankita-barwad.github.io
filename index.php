@@ -3,6 +3,7 @@
 <title>Ankita Barwad | CV</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="css/NewFile.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -25,7 +26,7 @@
 	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 	</script>
-<head>
+
 </head>
 
 <body class="w3-black">
