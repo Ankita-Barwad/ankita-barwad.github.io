@@ -63,7 +63,11 @@ body, h1, h2, h3, h4, h5, h6 {
 	background-size: 85%;
 	opacity: 0.65
 }
-
+.w3-modal{
+    position: fixed;
+    overflow: hidden;
+    display: block;
+}
 .heading_hr {
 	margin: 4% 0%;
 }
@@ -208,3 +212,5 @@ padding-bottom: 2%;
 	line-height: 24px;
 	padding: 0 4%;
 }
+
+
